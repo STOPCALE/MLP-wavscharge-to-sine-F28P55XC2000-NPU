@@ -1,0 +1,41 @@
+[P0] 无噪往返 RMSE 0.00e+00 (应 ~1e-7) | 有噪往返 RMSE 0.01625 (应≈噪声水平)
+[P1 全量 k∈[0.5,4]] step 2000: loss 0.01040
+[P1 全量 k∈[0.5,4]] step 4000: loss 0.00678
+[P1 全量 k∈[0.5,4]] step 6000: loss 0.00609
+== P1 全量: acc 1.0000 | MAE_k 0.1793 MAE_phi 0.3942 | recon mean 0.3274 p90 0.6261
+   [sine    ] n= 428 MAE_k 0.1486 MAE_phi 0.4555 recon 0.2839
+   [square  ] n= 412 MAE_k 0.2126 MAE_phi 0.2843 recon 0.4924
+   [triangle] n= 397 MAE_k 0.1569 MAE_phi 0.5070 recon 0.2248
+   [saw     ] n= 416 MAE_k 0.1993 MAE_phi 0.3325 recon 0.3069
+   [noise   ] n=395
+   [k 0.5-1.00] n= 233 MAE_k 0.2356 MAE_phi 0.5522 recon 0.3354
+   [k 1.0-2.00] n= 451 MAE_k 0.1738 MAE_phi 0.4114 recon 0.3517
+   [k 2.0-3.00] n= 507 MAE_k 0.1439 MAE_phi 0.3624 recon 0.3065
+   [k 3.0-4.01] n= 462 MAE_k 0.1951 MAE_phi 0.3328 recon 0.3228
+   [A 0.2-0.50] n= 621 MAE_k 0.2283 MAE_phi 0.5082 recon 0.2361
+   [A 0.5-1.01] n=1032 MAE_k 0.1498 MAE_phi 0.3257 recon 0.3824
+[P2] 过滤 k>=1 后样本数 3486
+[P2 k>=1] step 2000: loss 0.01113
+[P2 k>=1] step 4000: loss 0.00628
+[P2 k>=1] step 6000: loss 0.00558
+== P2 k>=1: acc 1.0000 | MAE_k 0.1535 MAE_phi 0.4544 | recon mean 0.3312 p90 0.6520
+   [sine    ] n= 733 MAE_k 0.1206 MAE_phi 0.5001 recon 0.2618
+   [square  ] n= 681 MAE_k 0.2018 MAE_phi 0.3993 recon 0.5498
+   [triangle] n= 712 MAE_k 0.1209 MAE_phi 0.5010 recon 0.2156
+   [saw     ] n= 709 MAE_k 0.1738 MAE_phi 0.4134 recon 0.3092
+   [noise   ] n=651
+   [k 1.0-2.00] n= 905 MAE_k 0.1650 MAE_phi 0.4751 recon 0.3524
+   [k 2.0-3.00] n= 984 MAE_k 0.1386 MAE_phi 0.4409 recon 0.3164
+   [k 3.0-4.01] n= 946 MAE_k 0.1580 MAE_phi 0.4487 recon 0.3265
+   [A 0.2-0.50] n=1076 MAE_k 0.1681 MAE_phi 0.5720 recon 0.2130
+   [A 0.5-1.01] n=1759 MAE_k 0.1445 MAE_phi 0.3825 recon 0.4036
+[P3] 正弦-only 且 1<=k<=3 样本数 477
+[P3 sine-only] step 2000: loss 0.00055
+[P3 sine-only] step 4000: loss 0.00041
+== P3 sine k∈[1,3]: acc 1.0000 | MAE_k 0.0488 MAE_phi 0.0928 | recon mean 0.0855 p90 0.1645
+   [sine    ] n= 477 MAE_k 0.0488 MAE_phi 0.0928 recon 0.0855
+   [noise   ] n=0
+   [k 1.0-2.00] n= 247 MAE_k 0.0515 MAE_phi 0.1023 recon 0.0894
+   [k 2.0-3.00] n= 230 MAE_k 0.0459 MAE_phi 0.0827 recon 0.0812
+   [A 0.2-0.50] n= 189 MAE_k 0.0544 MAE_phi 0.1295 recon 0.0630
+   [A 0.5-1.01] n= 288 MAE_k 0.0451 MAE_phi 0.0688 recon 0.1002
