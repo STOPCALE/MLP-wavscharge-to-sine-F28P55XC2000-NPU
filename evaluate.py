@@ -85,6 +85,10 @@ def main():
     # 重建 (真实类别公式口径). 口径说明:
     #   recon = 池化 RMSE (所有元素先平方求均值再开方) —— 与 train.py / log.json 完全一致, 用于历史对比
     #   逐样本口径仅用于分组统计 (先按样本开方再平均)
+    # 【教学】两种口径的区别 (报数字必须写清):
+    #   池化 RMSE: sqrt(mean(全部误差²)) —— 大误差样本权重大; 与训练指标同口径
+    #   逐样本均值: mean(每样本 RMSE) —— 每个样本等权; 回答"典型样本差多少"
+    #   本项目两口径差 ~35% (0.219 vs 0.137), 混用会得出不同结论
     x_re = render(cls_true[periodic], pred_raw[periodic], CFG.wave.n_points)
     se = (x_re - d["x"][periodic]) ** 2
     recon = se.mean().sqrt().item()

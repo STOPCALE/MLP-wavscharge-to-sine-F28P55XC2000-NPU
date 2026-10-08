@@ -1,0 +1,11 @@
+
+########## sq7_lam03_sw2 ({'lambda_recon_sq': 0.3, 'square_weight': 2.0}) ##########
+[专项评估] sq7_lam03_sw2: acc 0.8755 | sq_recon 0.4647 sq_k 0.1964 sq_phi 0.4546 duty 0.1047 | 非方波recon 0.3634 | 总体k 0.2445 phi 0.9038
+
+########## sq8_lam03_sw4 ({'lambda_recon_sq': 0.3, 'square_weight': 4.0}) ##########
+[专项评估] sq8_lam03_sw4: acc 0.8555 | sq_recon 0.4492 sq_k 0.1764 sq_phi 0.4302 duty 0.1026 | 非方波recon 0.3809 | 总体k 0.2264 phi 0.9068
+
+===== 汇总 (方波专项 第三轮: 组合) =====
+  变体 | sq_recon | sq_k_rel | sq_phi | duty | 非方波recon | 总体k_rel | 总体phi | acc
+  sq7_lam03_sw2  | 0.4647 | 0.1964 | 0.4546 | 0.1047 | 0.3634 | 0.2445 | 0.9038 | 0.8755
+  sq8_lam03_sw4  | 0.4492 | 0.1764 | 0.4302 | 0.1026 | 0.3809 | 0.2264 | 0.9068 | 0.8555
