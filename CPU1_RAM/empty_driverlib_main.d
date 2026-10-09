@@ -2,7 +2,7 @@
 
 empty_driverlib_main.obj: ../empty_driverlib_main.c
 empty_driverlib_main.obj: syscfg/board.h
-empty_driverlib_main.obj: E:/desk/CCS/uart_text/device/driverlib.h
+empty_driverlib_main.obj: E:/desk/CCS/npu_and_charge/device/driverlib.h
 empty_driverlib_main.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/inc/hw_memmap.h
 empty_driverlib_main.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/adc.h
 empty_driverlib_main.obj: E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include/stdbool.h
@@ -96,13 +96,17 @@ empty_driverlib_main.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverl
 empty_driverlib_main.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/inc/hw_spi.h
 empty_driverlib_main.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/usb.h
 empty_driverlib_main.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/version.h
-empty_driverlib_main.obj: E:/desk/CCS/uart_text/device/device.h
+empty_driverlib_main.obj: E:/desk/CCS/npu_and_charge/device/device.h
+empty_driverlib_main.obj: E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include/math.h
+empty_driverlib_main.obj: E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include/_defs.h
+empty_driverlib_main.obj: E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include/machine/_limits.h
+empty_driverlib_main.obj: ../artifacts/tvmgen_default.h
 
 ../empty_driverlib_main.c:
 
 syscfg/board.h:
 
-E:/desk/CCS/uart_text/device/driverlib.h:
+E:/desk/CCS/npu_and_charge/device/driverlib.h:
 
 E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/inc/hw_memmap.h:
 
@@ -290,5 +294,13 @@ E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/usb.h:
 
 E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/version.h:
 
-E:/desk/CCS/uart_text/device/device.h:
+E:/desk/CCS/npu_and_charge/device/device.h:
+
+E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include/math.h:
+
+E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include/_defs.h:
+
+E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include/machine/_limits.h:
+
+../artifacts/tvmgen_default.h:
 

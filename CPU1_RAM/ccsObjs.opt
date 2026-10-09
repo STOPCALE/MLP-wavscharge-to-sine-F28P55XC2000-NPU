@@ -3,6 +3,7 @@
 "./syscfg/c2000ware_libraries.obj"
 "./device/device.obj"
 "./device/f28p55x_codestartbranch.obj"
+"./device/f28p55x_npu.obj"
 "../28p55x_generic_ram_lnk.cmd"
 "E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"
 -lc2000ware_libraries.cmd.genlibs

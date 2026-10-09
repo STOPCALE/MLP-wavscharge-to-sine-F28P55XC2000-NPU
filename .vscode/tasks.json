@@ -118,7 +118,7 @@
             "args": [
                 "flash",
                 "--config=${workspaceFolder}\\TMS320F28P550SJ9_LaunchPad.ccxml",
-                "${workspaceFolder}\\CPU1_FLASH\\uart_and_npu.out"
+                "${workspaceFolder}\\CPU1_FLASH\\uart_and_charge.out"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -134,7 +134,7 @@
             "args": [
                 "load",
                 "--config=${workspaceFolder}\\TMS320F28P550SJ9_LaunchPad.ccxml",
-                "${workspaceFolder}\\CPU1_RAM\\uart_and_npu.out"
+                "${workspaceFolder}\\CPU1_RAM\\uart_and_charge.out"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

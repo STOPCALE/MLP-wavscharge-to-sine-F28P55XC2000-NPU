@@ -59,106 +59,34 @@ extern "C"
 //*****************************************************************************
 
 //
-// ANALOG -> myANALOGPinMux0 Pinmux
-//
-
-//
-// EPWM1 -> myEPWM1 Pinmux
+// SCIA -> mySCI0 Pinmux
 //
 //
-// EPWM1_A - GPIO Settings
+// SCIA_RX - GPIO Settings
 //
-#define GPIO_PIN_EPWM1_A 224
-#define myEPWM1_EPWMA_GPIO 224
-#define myEPWM1_EPWMA_PIN_CONFIG GPIO_224_EPWM1_A
+#define GPIO_PIN_SCIA_RX 28
+#define mySCI0_SCIRX_GPIO 28
+#define mySCI0_SCIRX_PIN_CONFIG GPIO_28_SCIA_RX
 //
-// EPWM1_B - GPIO Settings
+// SCIA_TX - GPIO Settings
 //
-#define GPIO_PIN_EPWM1_B 226
-#define myEPWM1_EPWMB_GPIO 226
-#define myEPWM1_EPWMB_PIN_CONFIG GPIO_226_EPWM1_B
-//
-// GPIO16 - GPIO Settings
-//
-#define myGPIOHigh_GPIO_PIN_CONFIG GPIO_16_GPIO16
-//
-// GPIO3 - GPIO Settings
-//
-#define myGPIOToggle_GPIO_PIN_CONFIG GPIO_3_GPIO3
-//
-// GPIO21 - GPIO Settings
-//
-#define myBoardLED0_GPIO_GPIO_PIN_CONFIG GPIO_21_GPIO21
+#define GPIO_PIN_SCIA_TX 29
+#define mySCI0_SCITX_GPIO 29
+#define mySCI0_SCITX_PIN_CONFIG GPIO_29_SCIA_TX
 
 //*****************************************************************************
 //
-// ADC Configurations
+// SCI Configurations
 //
 //*****************************************************************************
-#define myADCA_BASE ADCA_BASE
-#define myADCA_RESULT_BASE ADCARESULT_BASE
-#define myADCA_SOC0 ADC_SOC_NUMBER0
-#define myADCA_FORCE_SOC0 ADC_FORCE_SOC0
-#define myADCA_SAMPLE_WINDOW_SOC0 133.33333333333334
-#define myADCA_TRIGGER_SOURCE_SOC0 ADC_TRIGGER_EPWM1_SOCA
-#define myADCA_CHANNEL_SOC0 ADC_CH_ADCIN0
-void myADCA_init();
-
-
-//*****************************************************************************
-//
-// ASYSCTL Configurations
-//
-//*****************************************************************************
-
-//*****************************************************************************
-//
-// EPWM Configurations
-//
-//*****************************************************************************
-#define myEPWM1_BASE EPWM1_BASE
-#define myEPWM1_TBPRD 1999
-#define myEPWM1_COUNTER_MODE EPWM_COUNTER_MODE_UP
-#define myEPWM1_TBPHS 0
-#define myEPWM1_CMPA 0
-#define myEPWM1_CMPB 0
-#define myEPWM1_CMPC 0
-#define myEPWM1_CMPD 0
-#define myEPWM1_DBRED 0
-#define myEPWM1_DBFED 0
-#define myEPWM1_TZA_ACTION EPWM_TZ_ACTION_HIGH_Z
-#define myEPWM1_TZB_ACTION EPWM_TZ_ACTION_HIGH_Z
-#define myEPWM1_INTERRUPT_SOURCE EPWM_INT_TBCTR_DISABLED
-
-//*****************************************************************************
-//
-// GPIO Configurations
-//
-//*****************************************************************************
-#define myGPIOHigh 16
-void myGPIOHigh_init();
-#define myGPIOToggle 3
-void myGPIOToggle_init();
-#define myBoardLED0_GPIO 21
-void myBoardLED0_GPIO_init();
-
-//*****************************************************************************
-//
-// INTERRUPT Configurations
-//
-//*****************************************************************************
-
-// Interrupt Settings for INT_myADCA_1
-// ISR need to be defined for the registered interrupts
-#define INT_myADCA_1 INT_ADCA1
-#define INT_myADCA_1_INTERRUPT_ACK_GROUP INTERRUPT_ACK_GROUP1
-extern __interrupt void INT_myADCA_1_ISR(void);
-
-//*****************************************************************************
-//
-// SYNC Scheme Configurations
-//
-//*****************************************************************************
+#define mySCI0_BASE SCIA_BASE
+#define mySCI0_BAUDRATE 115200
+#define mySCI0_CONFIG_WLEN SCI_CONFIG_WLEN_8
+#define mySCI0_CONFIG_STOP SCI_CONFIG_STOP_ONE
+#define mySCI0_CONFIG_PAR SCI_CONFIG_PAR_NONE
+#define mySCI0_FIFO_TX_LVL SCI_FIFO_TX0
+#define mySCI0_FIFO_RX_LVL SCI_FIFO_RX0
+void mySCI0_init();
 
 //*****************************************************************************
 //
@@ -166,12 +94,8 @@ extern __interrupt void INT_myADCA_1_ISR(void);
 //
 //*****************************************************************************
 void	Board_init();
-void	ADC_init();
-void	ASYSCTL_init();
-void	EPWM_init();
-void	GPIO_init();
-void	INTERRUPT_init();
-void	SYNC_init();
+void	NPU_init();
+void	SCI_init();
 void	PinMux_init();
 
 //*****************************************************************************

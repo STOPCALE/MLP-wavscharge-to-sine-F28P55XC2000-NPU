@@ -1,37 +1,32 @@
 [
    {
-      "directory" : "E:/desk/CCS/uart_and_npu/CPU1_FLASH",
-      "command"   : "clang++ -I\"E:/desk/CCS/uart_and_npu\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/uart_and_npu/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/uart_and_npu/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
-      "file"      : "E:/desk/CCS/uart_and_npu/CPU1_FLASH/syscfg/board.c"
+      "directory" : "E:/desk/CCS/npu_and_charge/CPU1_FLASH",
+      "command"   : "clang++ -I\"E:/desk/CCS/npu_and_charge\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/npu_and_charge/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/npu_and_charge/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
+      "file"      : "E:/desk/CCS/npu_and_charge/CPU1_FLASH/syscfg/board.c"
    },
    {
-      "directory" : "E:/desk/CCS/uart_and_npu/CPU1_FLASH",
-      "command"   : "clang++ -I\"E:/desk/CCS/uart_and_npu\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/uart_and_npu/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/uart_and_npu/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
-      "file"      : "E:/desk/CCS/uart_and_npu/CPU1_FLASH/syscfg/c2000ware_libraries.c"
+      "directory" : "E:/desk/CCS/npu_and_charge/CPU1_FLASH",
+      "command"   : "clang++ -I\"E:/desk/CCS/npu_and_charge\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/npu_and_charge/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/npu_and_charge/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
+      "file"      : "E:/desk/CCS/npu_and_charge/CPU1_FLASH/syscfg/c2000ware_libraries.c"
    },
    {
-      "directory" : "E:/desk/CCS/uart_and_npu/CPU1_FLASH",
-      "command"   : "clang++ -I\"E:/desk/CCS/uart_and_npu\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/uart_and_npu/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/uart_and_npu/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
-      "file"      : "E:/desk/CCS/uart_and_npu/device/device.c"
+      "directory" : "E:/desk/CCS/npu_and_charge/CPU1_FLASH",
+      "command"   : "clang++ -I\"E:/desk/CCS/npu_and_charge\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/npu_and_charge/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/npu_and_charge/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
+      "file"      : "E:/desk/CCS/npu_and_charge/device/device.c"
    },
    {
-      "directory" : "E:/desk/CCS/uart_and_npu/CPU1_FLASH",
-      "command"   : "clang++ -I\"E:/desk/CCS/uart_and_npu\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/uart_and_npu/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/uart_and_npu/CPU1_FLASH/syscfg\" -DF28P55x=1",
-      "file"      : "E:/desk/CCS/uart_and_npu/device/f28p55x_codestartbranch.asm"
+      "directory" : "E:/desk/CCS/npu_and_charge/CPU1_FLASH",
+      "command"   : "clang++ -I\"E:/desk/CCS/npu_and_charge\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/npu_and_charge/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/npu_and_charge/CPU1_FLASH/syscfg\" -DF28P55x=1",
+      "file"      : "E:/desk/CCS/npu_and_charge/device/f28p55x_codestartbranch.asm"
    },
    {
-      "directory" : "E:/desk/CCS/uart_and_npu/CPU1_FLASH",
-      "command"   : "clang++ -I\"E:/desk/CCS/uart_and_npu\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/uart_and_npu/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/uart_and_npu/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
-      "file"      : "E:/desk/CCS/uart_and_npu/empty_driverlib_main.c"
+      "directory" : "E:/desk/CCS/npu_and_charge/CPU1_FLASH",
+      "command"   : "clang++ -I\"E:/desk/CCS/npu_and_charge\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/npu_and_charge/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/npu_and_charge/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
+      "file"      : "E:/desk/CCS/npu_and_charge/device/f28p55x_npu.c"
    },
    {
-      "directory" : "E:/desk/CCS/uart_and_npu/CPU1_FLASH",
-      "command"   : "clang++ -I\"E:/desk/CCS/uart_and_npu\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/uart_and_npu/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/uart_and_npu/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
-      "file"      : "E:/desk/CCS/uart_and_npu/device/f28p55x_npu.c"
-   },
-   {
-      "directory" : "E:/desk/CCS/uart_and_npu/CPU1_FLASH",
-      "command"   : "clang++ -I\"E:/desk/CCS/uart_and_npu\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/uart_and_npu/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/uart_and_npu/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
-      "file"      : "E:/desk/CCS/uart_and_npu/hand_infer.c"
+      "directory" : "E:/desk/CCS/npu_and_charge/CPU1_FLASH",
+      "command"   : "clang++ -I\"E:/desk/CCS/npu_and_charge\" -I\"E:/ccs/C2000Ware_26_01_00_00\" -I\"E:/desk/CCS/npu_and_charge/device\" -I\"E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/\" -I\"E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include\" -DDEBUG -D_FLASH -I\"E:/desk/CCS/npu_and_charge/CPU1_FLASH/syscfg\" -DF28P55x=1 -xc",
+      "file"      : "E:/desk/CCS/npu_and_charge/empty_driverlib_main.c"
    }
 ]

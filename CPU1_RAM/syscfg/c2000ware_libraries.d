@@ -3,7 +3,7 @@
 syscfg/c2000ware_libraries.obj: syscfg/c2000ware_libraries.c
 syscfg/c2000ware_libraries.obj: syscfg/c2000ware_libraries.h
 syscfg/c2000ware_libraries.obj: syscfg/board.h
-syscfg/c2000ware_libraries.obj: E:/desk/CCS/uart_text/device/driverlib.h
+syscfg/c2000ware_libraries.obj: E:/desk/CCS/npu_and_charge/device/driverlib.h
 syscfg/c2000ware_libraries.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/inc/hw_memmap.h
 syscfg/c2000ware_libraries.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/adc.h
 syscfg/c2000ware_libraries.obj: E:/ccs/ccs/tools/compiler/ti-cgt-c2000_25.11.1.LTS/include/stdbool.h
@@ -97,7 +97,7 @@ syscfg/c2000ware_libraries.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/d
 syscfg/c2000ware_libraries.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/inc/hw_spi.h
 syscfg/c2000ware_libraries.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/usb.h
 syscfg/c2000ware_libraries.obj: E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/version.h
-syscfg/c2000ware_libraries.obj: E:/desk/CCS/uart_text/device/device.h
+syscfg/c2000ware_libraries.obj: E:/desk/CCS/npu_and_charge/device/device.h
 
 syscfg/c2000ware_libraries.c:
 
@@ -105,7 +105,7 @@ syscfg/c2000ware_libraries.h:
 
 syscfg/board.h:
 
-E:/desk/CCS/uart_text/device/driverlib.h:
+E:/desk/CCS/npu_and_charge/device/driverlib.h:
 
 E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/inc/hw_memmap.h:
 
@@ -293,5 +293,5 @@ E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/usb.h:
 
 E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/version.h:
 
-E:/desk/CCS/uart_text/device/device.h:
+E:/desk/CCS/npu_and_charge/device/device.h:
 

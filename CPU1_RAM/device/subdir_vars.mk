@@ -18,16 +18,16 @@ C_DEPS += \
 
 OBJS += \
 ./device/device.obj \
-./device/f28p55x_npu.obj \
-./device/f28p55x_codestartbranch.obj 
+./device/f28p55x_codestartbranch.obj \
+./device/f28p55x_npu.obj 
 
 ASM_DEPS += \
 ./device/f28p55x_codestartbranch.d 
 
 OBJS__QUOTED += \
 "device\device.obj" \
-"device\f28p55x_npu.obj" \
-"device\f28p55x_codestartbranch.obj" 
+"device\f28p55x_codestartbranch.obj" \
+"device\f28p55x_npu.obj" 
 
 C_DEPS__QUOTED += \
 "device\device.d" \

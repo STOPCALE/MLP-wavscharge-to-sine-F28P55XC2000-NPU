@@ -15,7 +15,6 @@ LIB_SRCS += \
 E:/ccs/C2000Ware_26_01_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib 
 
 C_SRCS += \
-../hand_infer.c \
 ../empty_driverlib_main.c \
 ./syscfg/board.c \
 ./syscfg/c2000ware_libraries.c 
@@ -30,7 +29,6 @@ GEN_MISC_DIRS += \
 ./syscfg 
 
 C_DEPS += \
-./hand_infer.d \
 ./empty_driverlib_main.d \
 ./syscfg/board.d \
 ./syscfg/c2000ware_libraries.d 
@@ -40,7 +38,6 @@ GEN_OPTS += \
 ./syscfg/c2000ware_libraries.opt 
 
 OBJS += \
-./hand_infer.obj \
 ./empty_driverlib_main.obj \
 ./syscfg/board.obj \
 ./syscfg/c2000ware_libraries.obj 
